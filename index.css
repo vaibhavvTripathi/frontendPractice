@@ -1,0 +1,79 @@
+.container{
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    width: 400px;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 50px;
+    background-color: rgb(225, 224, 224);
+}
+.heading{
+    text-align: center;
+    margin-top: 2px;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.btns-wrap{
+    border: 1px solid black;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 0.25em;
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    
+}
+
+.btns-wrap-clearAll{
+    border: 1px solid black;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    border-radius: 100px;
+    margin: 0.25em;
+    background-color: black;
+    color: white;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    
+}
+
+.calculate-command{
+    padding: 1em;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(16, 16, 46);
+    margin: 1em auto;
+    cursor:pointer;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+}
+.display-area{
+    padding: 1em 0;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+}
+.calculation-area{
+    padding: 2em 0;
+    margin: 0 1em;
+    margin-bottom: 1em;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    box-shadow: 0px 0px 5px 2px rgba(181,174,181,0.68);
+    text-align: left;
+}

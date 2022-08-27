@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+      <div class="container">
+          <h1 class="heading">Calculator</h1>
+          <div class="showcase-area">
+             <div class="display-area">
+                <!-- the operations will be displayed here -->
+                <h3 id="displayNum" style="margin: 0; padding: 0 1em;">0</h3>
+                
+              </div>
+              <div class="calculation-area">
+                <!-- calculations will be displayed here -->
+                <h3 id="calculateNum" style="margin: 0; padding: 0 1em; float:right;"></h3>
+                 
+              </div>
+          </div>
+
+          <div onclick="backspace()" class="backspace calculate-command" style="text-align: center; width: fit-content;">Backspace</div>
+          
+          <div class="machine">
+            <div class="num-pad">
+                <!-- this area is for the numpad -->
+                <div class="first-row rows">
+                    <h1 class="btns-wrap">1</h1>
+                    <h1 class="btns-wrap">2</h1>
+                    <h1 class="btns-wrap">3</h1>
+                    <h1 class="btns-wrap">+</h1>
+                </div>
+                <div class="first-row rows">
+                    <h1 class="btns-wrap">4</h1>
+                    <h1 class="btns-wrap">5</h1>
+                    <h1 class="btns-wrap">6</h1>
+                    <h1 class="btns-wrap">-</h1>
+                </div>
+                <div class="first-row rows">
+                    <h1 class="btns-wrap">7</h1>
+                    <h1 class="btns-wrap">8</h1>
+                    <h1 class="btns-wrap">9</h1>
+                    <h1 class="btns-wrap">/</h1>
+                </div>
+                <div class="first-row rows">
+                    <h1 class="btns-wrap">0</h1>
+                    <h1 class="btns-wrap">%</h1>
+                    <h1 class="btns-wrap">^</h1>
+                    <h1 onclick="clearAll()" class="btns-wrap-clearAll">C</h1>
+                </div>
+            </div>
+          </div>
+          <div style=" text-align: center;">
+            <!-- this area is for the calculate command -->
+             <button onclick="calculateSum()" class="calculate-command" >Calculate</button>
+          </div>
+      </div>  
+     <script src="index.js"></script>
+</body>
+</html>
